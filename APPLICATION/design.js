@@ -236,23 +236,8 @@ button3: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ffD',
+    backgroundColor: '#8E',
   },
-
-  
-  transparentStatusBar: {
-    ...Platform.select({
-      android: {
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        height: StatusBar.currentHeight,
-        backgroundColor: '#FFF',
-      }, 
-    }),
-  },
-
 
 
 
