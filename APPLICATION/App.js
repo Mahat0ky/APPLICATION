@@ -40,7 +40,7 @@ const App = ({ navigation }) => {
       <TouchableOpacity onPress={handleScreenPress} style={{ flex: 1 }}>
         <View style={d.fullScreen}>
           
-          <Image source={require('./assets/AA.png')} style={{ width: 300, height: 300, borderRadius: 50, marginBottom: 100}} />
+          <Image source={require('./assets/AA.png')} style={{ width: 300, height: 300, borderRadius: 50, marginBottom: 180}} />
 
           <TouchableOpacity style={[d.button0, { flexDirection: 'row', justifyContent: 'center', alignItems: 'center'  }]} onPress={handleButtonPress}>
             <Text style={d.buttonText}>Nouvelle partie</Text>
