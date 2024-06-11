@@ -21,29 +21,33 @@ const d = StyleSheet.create({
 
   
 
-  // Case de reponse
+ // Case de reponse
   reps:{
-    borderWidth:2,
-    borderColor:'white',
+    borderWidth: 1,
+    borderColor:'#FF1CAE',
     width:300,
     borderRadius:50,
-    backgroundColor:'#FFF',
+    backgroundColor:'#FFE',
     top:140,
     position: 'relative',
     shadowColor: '#000',
-    shadowOffset: { width: 4, height: 6 },
-    shadowOpacity: 0.7,
+    shadowOpacity: 0.9,
     shadowRadius: 3,
     paddingTop:5,
     paddingBottom:5,
-    marginTop:15,
+    marginTop:20,
+    bottom: 50,
+    shadowOffset: { width: 2, height: 4 },
+    shadowRadius: 3, 
+    elevation: 7,
   },
+
   
   //Case de la Question
   title: {
-    width:300,
+    width:350,
     position: 'absolute',
-    top: 130,
+    top: 200,
     color: 'black',
     fontSize: 28,
     textAlign: 'center',
@@ -59,6 +63,8 @@ const d = StyleSheet.create({
     borderRadius: 30,
   },
 
+
+  
   //Case de money
   dollar: {
     width:100,
